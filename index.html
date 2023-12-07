@@ -5,62 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sheila Pink</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <nav class="nav">
-                <div class="loggo">
+        <header id="home">
+            <nav class="nav" id="nav">
+                <div class="logo">
                     <h1>Sheila</h1>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Testimonials</a></li>
+                    <li class="links"><a href="#home">Home</a></li>
+                    <li class="links"><a href="#about">About</a></li>
+                    <li class="links"><a href="#services">Services</a></li>
+                    <li class="links"><a href="#gallery">Gallery</a></li>
+                    <li class="links"><a href="#testmonial">Testimonials</a></li>
                 </ul>
             </nav>
             <div class="bio">
-                <h1>Hi Am sheila pink</h1>
+                <h1>Hello..!</h1>
+                <h2>I'm sheila pink</h2>
                 <p>
                     Welcome to Sheila Pink's world, where style meets sustainability,<br>
                     and every choice is a step towards a greener, 
                     more conscious lifestyle.
                 </p>
-                <div class="ico">
-
+                <p>
+                    For me, sustainability isn't just a buzzword; it's a way of life.<br>
+                    From the fabrics I choose to the brands I support, 
+                    
+                </p>
+                <div class="btn-wrap">
+                    <a href="" class="btn" id="btn">Hire Me</a>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 </div>
             </div>
             <img src="images/4.png" alt="">
+            <div class="circle"></div>
         </header>
         <main>
-            <section class="about">
-                <div class="about-info">
-                    <h2>Who is Sheila Pink?</h2>
-                    <p>
-                        Hi there! I'm Sheila Pink, your guide to a fashion-forward,
-                        eco-conscious existence. <br>As a sustainable lifestyle influencer,
-                        I'm on a mission to redefine the narrative around fashion and living,
-                        proving that you can look fabulous while making ethical choices.
-                    </p>
-                    <p>
-                        For me, sustainability isn't just a buzzword; it's a way of life.
-                        From the fabrics I choose to the brands I support, 
-                        every element in my wardrobe and lifestyle reflects a commitment to the planet. 
-                        Join me on this journey where we embrace style that leaves a positive impact.
-                    </p>
+            <section id="about" class="about">
+                <div class="wrapper">
+                    <div class="image">
+                        <img src="images/5.jpg" alt="">
+                    </div>
+                    <div class="about-info">
+                        <h2>Who is Sheila Pink?</h2>
+                        <p>
+                            Hi there! I'm Sheila Pink, your guide to a fashion-forward,
+                            eco-conscious existence. <br>As a sustainable lifestyle influencer,
+                            I'm on a mission to redefine the narrative around fashion and living,
+                            proving that you can look fabulous while making ethical choices.
+                        </p>
+                        <p>
+                            For me, sustainability isn't just a buzzword; it's a way of life.
+                            From the fabrics I choose to the brands I support, 
+                            every element in my wardrobe and lifestyle reflects a commitment to the planet. 
+                            Join me on this journey where we embrace style that leaves a positive impact.
+                        </p>
+                    </div>
                 </div>
             </section>
-            <section class="services">
-                <h1>What I Do !</h1>
+            <section class="services" id="services">
+                <div class="service-head">
+                    <h1>What I Do !</h1>
                 <p>
                     Outside of the fashion realm, discover my adventures,
                     <br>collaborations with like-minded brands, 
                     and the little things that make life beautiful. <br>
                     Together, let's build a community that celebrates mindful living.
                 </p>
+                </div>
                 <div class="service-wrap">
                     <div class="card">
                         <h1>Sponsored Content:</h1>
@@ -109,44 +132,90 @@
                     </div>
                 </div>
             </section>
-            <section class="gallery">
+            <section class="gallery" id="gallery">
+                <div>
+                    <h1 class="title">My Gallery</h1>
+                </div>
                 <div class="galla">
+                    <img src="images/2.jpg" alt="" class="wide tall">
+                    <img src="images/3.jpg" alt="" class="tall">
+                    <img src="images/3.jpg" alt="" class="wide1">
                     <img src="images/2.jpg" alt="">
-                    <img src="images/3.jpg" alt="">
-                    <img src="images/5.jpg" alt="">
-                    <img src="images/3.jpg" alt="">
+                    <img src="images/5.jpg" alt="" class="tall">
                     <img src="images/2.jpg" alt="">
-                    <img src="images/5.jpg" alt="">
-                    <img src="images/2.jpg" alt="">
-                    <img src="images/2.jpg" alt="">
+                    <img src="images/2.jpg" alt="" class="wide">
                     <img src="images/5.jpg" alt="">
                 </div>
             </section>
-            <section class="test">
+            
+            <section class="test" id="testimonial">
+                <div class="test-title">
+                    <h1>What others Say About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Deleniti possimus culpa molestias.<br> Facilis assumenda obcaecati alias, 
+                        officiis, odio rem aspernatur earum ratione<br> atque repudiandae aperiam veritatis 
+                        dicta, 
+                        accusamus eum maiores.</p>
+                </div>
                 <div class="testimonial-section">
                     <div class="testimonial">
                         <img src="images/5.jpg" alt="User 1">
                         <h3>John Doe</h3>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
                     </div>
             
                     <div class="testimonial">
                         <img src="images/2.jpg" alt="User 2">
                         <h3>Jane Smith</h3>
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                        <p>"Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
                     </div>
             
                     <div class="testimonial">
                         <img src="images/5.jpg" alt="User 3">
-                        <h3>Bob Johnson</h3>
-                        <p>"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <h3>Bob Jenny</h3>
+                        <p>"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                            officia deserunt mollit anim id est laborum."</p>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer>
-
+            <div class="footerinfo">
+                <div class="info">
+                    <p>Sheila Pink&copy;2023</p>
+                </div>
+                <div class="info">
+                    <a href="">Terms and condition Apply</a>
+                </div>
+                <div class="info">
+                    <input type="email" placeholder="enter your Email"><span>Subscribe</span>
+                </div>
+            </div>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
